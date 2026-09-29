@@ -1,0 +1,30 @@
+<!DOCTYPE html><html lang="en"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maintenance Request</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Submit Maintenance Request</h2>
+    <form id="requestForm">
+      <label for="name">Full Name</label>
+      <input type="text" id="name" name="name" required="">
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required="">
+
+      <label for="unit">Unit Number</label>
+      <input type="text" id="unit" name="unit" required="">
+
+      <label for="issue">Issue Description</label>
+      <textarea id="issue" name="issue" required=""></textarea>
+
+      <button type="submit">Submit Request</button>
+    </form>
+    <p id="responseMsg"></p>
+  </div>
+  <script src="script.js"></script>
+
+
+</body></html>

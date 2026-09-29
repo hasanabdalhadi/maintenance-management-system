@@ -1,0 +1,37 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+header {
+    background-color: #003366;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+.logo {
+    height: 60px;
+    vertical-align: middle;
+}
+main {
+    padding: 2rem;
+}
+.status-tracker {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.complaint-card {
+    margin-top: 1rem;
+    border-left: 5px solid orange;
+    padding-left: 1rem;
+}
+.status {
+    font-weight: bold;
+}
+.status.in-progress {
+    color: orange;
+}
