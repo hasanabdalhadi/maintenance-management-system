@@ -1,33 +1,47 @@
 # Maintenance Management System
 
-A portfolio version of a maintenance-request workflow developed from work completed during my internship experience in facilities management.
+A web-based maintenance request prototype inspired by practical experience during my internship at **Reliance Facilities Management (Reliance FM), Dubai**.
 
-## Current files
+The project explores a simple digital workflow that allows residents to submit maintenance issues and gives the maintenance team a dashboard for viewing and tracking requests.
 
-- **Resident Request Form** – interface for residents to submit maintenance requests.
-- **Maintenance Dashboard** – interface for the maintenance team to view submitted requests and their status.
+> **Portfolio note:** This repository presents a front-end prototype based on the internship project concept. The available version demonstrates the user interfaces and request-tracking idea; it does not claim a production backend, database, or automated email service.
 
-## Workflow concept
+## Project Preview
 
-The intended workflow is:
+### Resident Maintenance Request Form
+Residents can enter their name, email, unit number, and a description of the maintenance issue.
 
-1. Resident submits a maintenance request.
-2. Request is received by the maintenance team.
-3. Request status moves through review and execution.
-4. Resident is informed as the request progresses.
-5. After completion, the resident can be asked for feedback/rating.
+![Resident Maintenance Request Form](screenshots/resident-request-form.png)
 
-## Technologies represented in the available prototype
+### Maintenance Requests Dashboard
+The maintenance team can view a complaint ID, current status, issue description, and submission date.
 
+![Maintenance Requests Dashboard](screenshots/maintenance-dashboard.png)
+
+### Workflow
+![Maintenance Request Workflow](screenshots/workflow.png)
+
+## Core Concept
+1. A resident submits a maintenance request.
+2. The request details are recorded for the maintenance team.
+3. The maintenance team reviews the complaint through the dashboard.
+4. The request status can be displayed and tracked.
+
+## Technologies
 - HTML
 - CSS
-- JavaScript / browser-side storage where used in the original files
+- JavaScript / browser-side prototype concepts
+- UI/UX design
+- Maintenance workflow design
 
-## Important note
+## Internship Context
+The idea was developed from my practical experience at **Reliance FM in Dubai (June 2025 – August 2025)**, where I was exposed to residential site inspections, maintenance operations, technical issue analysis, and coordination between field and administrative teams.
 
-The files in this repository represent the available prototype materials. The full automated email workflow and production backend/database are not included in the available source files.
+The goal was to explore how a simple digital system could make maintenance requests easier to submit, organize, and follow.
 
-## Author
+## Disclaimer
+Reliance FM is referenced to explain the internship context that inspired this portfolio project. This repository should not be interpreted as an official Reliance FM product, publication, or endorsement.
 
+---
 **Hasan R. H. Abdalhadi**  
-Computer Science Engineering – BITS Pilani, Dubai Campus
+Computer Science Engineering — BITS Pilani, Dubai Campus
